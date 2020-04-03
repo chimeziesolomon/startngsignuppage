@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ADD8E6;
+}
+h3 {
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: small;
+
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.image {
+    top: 20px;
+    position: absolute;
+    left:  550px;
+}
+.form-box {
+    top: 70px;
+    width: 400px;
+    height: 620px;
+    position: relative;
+    margin: 0% auto;
+    background: #ffffff;
+    padding-top: 30px;
+    border-radius: 18px;
+   
+
+
+}
+.form {
+    width: 320px;
+    height: 600px;
+    top: 47%;
+    left: 50%;
+    bottom: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    
+   
+   
+}
+.form input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 43px;
+    font-size: 16px;
+    border-radius: 7px;
+    background: darkgray;
+    padding-left: 4px;
+}
+#aboutus {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 40px;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 7px;
+    background: darkgray;
+    
+}
+.form input[type="submit"] {
+    outline: none;
+    height: 50px;
+    background: blue;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: -20px;
+    border: 30px;
+    text-align: center;
+}
+.form input[type="submit"]:hover {
+    cursor: pointer;
+    background: darkblue;
+    margin-bottom: 40px;
+}
+.form a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    top: 40px;
+
+   
+}
+.form a:hover {
+    color: darkgrey;
+}
